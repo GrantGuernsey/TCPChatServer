@@ -66,7 +66,7 @@ Description: Leaves a specific group.
 Usage: groupPost <groupID> <message>
 Description: Posts a message to a certain group.
 
-1.. groupRequest:
+11. groupRequest:
 
 Usage: groupRequest <groupID> <message>
 Description: Retrieves a message from a certain group.
