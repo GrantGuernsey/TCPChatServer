@@ -16,57 +16,57 @@ Command Execution:
 The implemented commands are printed with the required parameters. The details of each command are explained below.
 
 ## Implemented Commands
-###1. join:
+### 1. join:
 
 Usage: Can be run after the client has exited the server.
 Description: Rejoins the server after a client has exited.
 
-###2. post:
+### 2. post:
 
 Usage: post <message>
 Description: Posts a message to the global chat (group 1).
 
-###3. users:
+### 3. users:
 
 Usage: No parameters needed.
 Description: Prints all users connected to the server.
 
-###4. request:
+### 4. request:
 
 Usage: request <message>
 Description: Requests a message from the global server.
 
-###5. exit:
+### 5. exit:
 
 Usage: No parameters needed.
 Description: Exits the user, closing all sockets and streams.
 
-###6. groups:
+### 6. groups:
 
 Usage: No parameters needed.
 Description: Prints the available groups.
 
-###7. groupJoin:
+### 7. groupJoin:
 
 Usage: groupJoin <groupID>
 Description: Joins a specific group.
 
-###8. groupUsers:
+### 8. groupUsers:
 
 Usage: groupUsers <groupID>
 Description: Shows the users for a specific group.
 
-###9. groupLeave:
+### 9. groupLeave:
 
 Usage: groupLeave <groupID>
 Description: Leaves a specific group.
 
-###10. groupPost:
+### 10. groupPost:
 
 Usage: groupPost <groupID> <message>
 Description: Posts a message to a certain group.
 
-###11. groupRequest:
+### 11. groupRequest:
 
 Usage: groupRequest <groupID> <message>
 Description: Retrieves a message from a certain group.
